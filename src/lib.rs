@@ -1,9 +1,7 @@
-use std::net::SocketAddr;
-
 use eyre::Result;
 use routes::create_router;
+use std::net::SocketAddr;
 
-mod headers;
 mod routes;
 
 pub struct App {
