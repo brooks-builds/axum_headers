@@ -3,6 +3,7 @@ use routes::create_router;
 use std::net::SocketAddr;
 
 mod routes;
+mod headers;
 
 pub struct App {
     address: [u8; 4],
